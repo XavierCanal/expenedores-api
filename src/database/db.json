@@ -1,0 +1,131 @@
+{
+  "machines": [
+    {
+      "id": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "municipality": "Olot",
+      "adress": "Placa del sant Bernat, 01"
+    },
+    {
+      "id": "d8be2362-7b68-4ea4-a1f6-03f8bc4eede7",
+      "municipality": "Olot",
+      "adress": "Placa dels 3 reis, 33"
+    },
+    {
+      "id": "a24d2618-01d1-4682-9288-8de1343e53c7",
+      "municipality": "Tommy V",
+      "adress": "Terraplana, 23"
+    }
+  ],
+  "drawer": [
+    {
+      "id": "ad75d475-ac57-44f4-a02a-8f6def58ff56",
+      "idMachine": "a24d2618-01d1-4682-9288-8de1343e53c7",
+      "box": "1a"
+    },
+    {
+      "id": "0bff586f-2017-4526-9e52-fe3ea46d55ab",
+      "idMachine": "d8be2362-7b68-4ea4-a1f6-03f8bc4eede7",
+      "box": "1b"
+    },
+    {
+      "id": "365cc0bb-ba8f-41d3-bf82-83d041d38b82",
+      "idMachine": "a24d2618-01d1-4682-9288-8de1343e53c7",
+      "box": "2a"
+    },
+    {
+      "id": "62251cfe-fdb6-4fa6-9a2d-c21be93ac78d",
+      "idMachine": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "box": "2b"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Snack",
+      "IVA": "21%"
+    },
+    {
+      "name": "Fruit",
+      "IVA": "21%"
+    },
+    {
+      "name": "Soda",
+      "IVA": "21%"
+    }
+  ],
+  "products": [
+    {
+      "name": "Coca-Cola Light",
+      "type": "Gluten Free",
+      "price": "1.3€",
+      "category": "Sodas"
+    },
+    {
+      "name": "Coca-Cola 0",
+      "type": "0 sugars",
+      "price": "1.5€",
+      "category": "Sodas"
+    },
+    {
+      "name": "Reese's",
+      "type": "Normal",
+      "price": "1.3€",
+      "category": "Snack"
+    },
+    {
+      "name": "Pocky",
+      "type": "Normal",
+      "price": "2.5€",
+      "category": "Snack"
+    },
+    {
+      "name": "M&M",
+      "type": "Normal",
+      "price": "3€",
+      "category": "Snack"
+    },
+    {
+      "name": "Acuarius",
+      "type": "Normal",
+      "price": "1.7€",
+      "category": "Soda"
+    }
+  ],
+  "stock": [
+    {
+      "product": "Coca-Cola Light",
+      "caducity": "20/08/2023",
+      "sell date": "",
+      "location": "ad75d475-ac57-44f4-a02a-8f6def58ff56"
+    },
+    {
+      "product": "Pocky",
+      "caducity": "20/08/2023",
+      "sell date": "",
+      "location": "ad75d475-ac57-44f4-a02a-8f6def58ff56"
+    },
+    {
+      "product": "Reese's",
+      "caducity": "20/08/2023",
+      "sell date": "",
+      "location": "0bff586f-2017-4526-9e52-fe3ea46d55ab"
+    },
+    {
+      "product": "Reese's",
+      "caducity": "20/08/2023",
+      "sell date": "",
+      "location": "ad75d475-ac57-44f4-a02a-8f6def58ff56"
+    },
+    {
+      "product": "Coca-Cola 0",
+      "caducity": "07/06/2023",
+      "sell date": "",
+      "location": "ad75d475-ac57-44f4-a02a-8f6def58ff56"
+    },
+    {
+      "product": "Coca-Cola 0",
+      "caducity": "07/06/2023",
+      "sell date": "",
+      "location": "62251cfe-fdb6-4fa6-9a2d-c21be93ac78d"
+    }
+  ]
+}

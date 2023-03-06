@@ -1,18 +1,26 @@
 {
-  "name": "expenedores-api",
-  "version": "1.0.0",
+  "name": "crossfit-wod-api",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "swagger-autogen": "node src/swagger.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Carlos Azaustre <cazaustre@gmail.com> (https://youtube.com/carlosazaustre)",
+  "license": "MIT",
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.19"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "apicache": "^1.6.3",
+    "express": "^4.18.1",
+    "swagger-autogen": "^2.23.1",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.5.0",
+    "uuid": "^8.3.2"
   }
 }
